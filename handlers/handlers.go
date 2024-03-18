@@ -5,7 +5,7 @@ import (
 	"net/http"
 )
 
-// Example of a simple data structure for the JSON response
+// JSON response struct
 type Response struct {
 	Message string `json:"message"`
 }
